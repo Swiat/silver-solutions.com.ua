@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Silver Solutions</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div id="wrapper">
+      <div id="header">
+      <!-- Шапка -->
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+              </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="javascript:;" class="dropdown-toggle toggler" id="language-selector" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+					Language: 
+					<span class="glyphicon glyphicon-menu-down"></span>
+				</a>
+					<ul class="dropdown-menu" aria-labelledby="language-selector">
+						<li><a href="#">Русский</a></li>
+						<li><a href="#">English</a></li>
+					</ul>
+				</li>
+                <li><a href="#"><span class="fa fa-envelope-o" aria-hidden="true"></span>silver.solutions.company@gmail.com</a></li>
+                <li><a href="#"><span class="fa fa-skype" aria-hidden="true"></span>igor.serebryanskiy</a></li>
+                <li><a href="#">+38 050 407 28 00</a></li>
+                <li class="empty-cell"></li>
+                <li><a href="#order-form" class="request-quote open-dialog header-form">Оставить заявку</a></li> 
+                </ul>
+             </div>
+            </div>
+        </nav> 
+      <div class="affix-block">
+        <div class="row logo-menu-row" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+            <div class="logo col-md-6"><a href="#"><img src="css/img/silversolutions.png" alt=""></a></div>
+            <div class="header-menu col-md-6">
+              <ul>
+              <!-- Всплывающее меню -->
+                <li class="dropdown" onclick="openMenu(); return false" id="dropdown"> 
+                  <a href="#" class="menu-dropdown">создание сайтов</a>
+                    <ul id="menu" style="display: none;">
+                      <li><a href="#">Cайт визитка</a></li>
+                      <li><img src="css/img/white-line.png" alt=""></li>
+                      <li><a href="#">Landing page</a></li>
+                      <li><img src="css/img/white-line.png" alt=""></li>
+                      <li><a href="#">Интернет магазин</a></li>
+                      <li><img src="css/img/white-line.png" alt=""></li>
+                      <li><a href="#">Корпоративный сайт</a></li>
+                      <li><img src="css/img/white-line.png" alt=""></li>
+                      <li><a href="#">Уникальный сайт</a></li>
+                    </ul>
+                </li> 
+                <li><img src="css/img/line.png"></li>        
+                <li><a href="#">услуги</a></li>
+                <li><img src="css/img/line.png" alt=""></li>
+                <li><a href="#">портфолио</a></li>
+                <li><img src="css/img/line.png" alt=""></li>
+                <li><a href="#">блог</a></li>
+                <li><img src="css/img/line.png" alt=""></li>
+                <li><a href="#" class="last-link">контакты</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>   
+      </div> <!-- header --> 
+	<div id="content">
+		<div class="conteiner-fluid">
+			<div class="content-banner">
+				<div class="content-banner-info">
+					<h1>разработка сайтов</h1>
+					<p>Мы оказываем полный комплекс услуг по разработке<br /> и сопровождению интернет-проектов</p>
+					<input type="button" value="Оставить заявку">
+					<img class="php" src="css/img/PHP.png" alt="">
+					<img class="html" src="css/img/HTML.png" alt="">
+					<img class="rocket" src="css/img/rocket.png" alt="">
+					<img class="css" src="css/img/CSS.png" alt="">
+					<img class="galaxy" src="css/img/galaxy.png" alt="">
+					<img class="meteor" src="css/img/meteor.png" alt="">
+					<img class="black-hole" src="css/img/black-hole.png" alt="">
+					<img class="comet" src="css/img/comet.png" alt="">
+					<img class="jquery" src="css/img/jQuery.png" alt="">
+					<div class="banner-bottom-info">
+						<ul>
+							<li><a href="#"><img src="css/img/klients.png" alt=""></a></li>
+							<li><a href="#"><img src="css/img/proects.png" alt=""></a></li>
+							<li><a href="#"><img src="css/img/professionals.png" alt=""></a></li>
+							<li><a href="#"><img src="css/img/experience.png" alt=""></a></li>
+							<li><a href="#"><img src="css/img/countries.png" alt=""></a></li>
+						</ul>
+					</div> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="services">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 service1">
+            <a href="#">
+              <img src="css/img/browser.png" alt="">
+              <h1 class="service-title">сайт визитка</h1>
+              <p class="service-prise">от <span>100$</span> до 10 дней</p>
+            </a>
+            <div class="more-details"><p>Компактный сайт с минимальным количеством информации, который подойдет для быстрого старта в сети интернет. Цель: информирование потенциальных клиентов о ваших товарах или услугах, предоставление краткой, но важной информации о вашем бизнесе, контактных данных и графика работы.</p>
+              <input type="button" class="details-btn" value="Подробнее">
+            </div>
+          </div>
+          <div class="col-md-3 service2">
+            <a href="#">
+              <img src="css/img/web-page.png" alt="">
+              <h1 class="service-title">landing page</h1>
+              <p class="service-prise">от <span>100$</span> до 5 дней</p>
+            </a>
+            <div class="more-details2"><p>Одностраничный сайт с активным призывом к действию: заказу услуги или покупке товара. Подойдет для старта нового бизнеса или изучения спроса. Цель: быстрый вывод нового продукта на рынок, информирование о предстоящем мероприятии, формирование позитивного имиджа о компании.</p>
+              <input type="button" class="details-btn" value="Подробнее">
+            </div>
+          </div>
+          <div class="col-md-3 service3">
+            <a href="#">
+              <img src="css/img/online-shop.png" alt="">
+              <h1 class="service-title">интернет магазин</h1>
+              <p class="service-prise">от <span>500$</span> он 25 дней</p>
+            </a>
+            <div class="more-details3"><p>Лучшее решение для компаний, которые занимаются продажами в сети Интернет. Подойдет для бизнеса с количеством товаров от 50 наименований. Цель:  увеличение прибыли, оптимизация онлайн продаж, расширение географии представленности компании, автоматизация бизнес процессов.</p>
+              <input type="button" class="details-btn" value="Подробнее">
+            </div>
+          </div>
+          <div class="col-md-3 service4">
+            <a href="#">
+              <img src="css/img/sitemap.png" alt="">
+              <h1 class="service-title">КОРПОРАТИВНЫЙ САЙТ</h1>
+              <p class="service-prise">от <span>800$</span> от 30 дней</p>
+            </a>
+            <div class="more-details4"><p>Солидный сайт, который подойдет для любой компании: от малого бизнеса до компаний международного значения. Цель: обеспечение обратной связи с клиентами и партнерами, корпоративная идентификация, информирование клиентов о миссии вашего бизнеса, создание доверительного имиджа.</p>
+              <input type="button" class="details-btn" value="Подробнее">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 service5">
+            <a href="#">
+              <img src="css/img/graphic-design.png" alt="">
+              <h1 class="service-title">уникальный сайт</h1>
+              <p class="service-prise">от <span>800$</span> от 30 дней</p>
+            </a>
+            <div class="more-details5"><p>Эксклюзивное воплощение ваших бизнес идей. Сайт подойдет для реализации нестандартных задач любого уровня сложности: от создания новостных порталов до разработки социальных сетей. Цель: уникальная подача материала, максимальный охват специализированной аудитории, монетизация бизнеса.</p>
+              <input type="button" class="details-btn" value="Подробнее">
+            </div>
+          </div>
+          <div class="col-md-3 service6">
+            <a href="#">
+              <img src="css/img/smartphone.png" alt="">
+              <h1 class="service-title">мобильное приложение</h1>
+              <p class="service-prise">от <span>400$</span> он 20 дней</p>
+            </a>
+            <div class="more-details6"><p>Идеальное решение для более тесного контакта с вашей аудиторией. Подойдет для всех бизнесов, идущих в ногу со временем. Цель: расширение функциональности сайта, увеличение количества мобильной аудитории сайта, повышение продаж, фокусировка внимания на потребностях вашего клиента.</p>
+              <input type="button" class="details-btn" value="Подробнее">
+            </div>
+          </div>
+          <div class="col-md-3 service7">
+            <a href="#">
+              <img src="css/img/site-design.png" alt="">
+              <h1 class="service-title">дизайн сайта</h1>
+              <p class="service-prise">от <span>200$</span> от 10 дней</p>
+            </a>
+            <div class="more-details7"><p>Графическое отображение вашей компании в сети Интернет. Подойдет всем владельцам бизнеса, которые хотят выразить свой уровень уважения и отношения к клиенту. Цель: модернизация сайта, обновление бизнеса, повышение удобства навигации и отображения информации о товарах и услугах.</p>
+              <input type="button" class="details-btn" value="Подробнее">
+            </div>
+          </div>
+          <div class="col-md-3 service8">
+            <a href="#">
+              <img src="css/img/graphic-design3.png" alt="">
+              <h1 class="service-title">разработка логотипа</h1>
+              <p class="service-prise">от <span>100$</span> от 5 дней</p>
+            </a>
+            <div class="more-details8"><p>Концепция всего вашего бизнеса в одном изображении. Подойдет всем владельцам бизнеса, которые хотят построить длительные и доверительные отношения с клиентом. Цель: повышение ценности бизнеса, увеличение смысловой нагрузки бренда, повышение лояльности и преданности к компании.</p>
+              <input type="button" class="details-btn" value="Подробнее">
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="btn-orange-button"><input type="button" value="оставить заявку"></div>
+	</div><!-- #services -->
+	<div id="clients">
+		<div class="clients">
+			<h1 class="about-clients">10+ лет на рынке и 200+ довольных клиентов</h1>
+			<p>Наша цель - долгосрочные партнерские отношения. Мы гарантируем прозрачный процесс разработки сайта, обоснованную стоимость работ, грамотное наполнение контентом и результативное привлечение целевой аудитории. Эти компании нам доверяют:</p>
+      <div class="container-fluid">
+  			<div class="row client-row">
+  				<div class="col-md-2 client-board1"><a href="#"></a></div>
+  				<div class="col-md-2 client-board2"><a href="#"></a></div>
+  				<div class="col-md-2 client-board3"><a href="#"></a></div>
+  				<div class="col-md-2 client-board4"><a href="#"></a></div>
+  				<div class="col-md-2 client-board5"><a href="#"></a></div>
+  				<div class="col-md-2 client-board6"><a href="#"></a></div>
+  			</div>
+      </div>
+      <div class="container-fluid">
+  			<div class="row our-work-row">
+  				<div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+  					<h1><span id="years">0</span></h1>
+  					<p>лет на рынке</p>
+  				</div>
+  				<div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+  				 	<h1><span id="projects">0</span></h1>
+  				 	<p>проектов</p>
+  				</div>
+  				<div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+  					<h1><span id="hours">0</span></h1>
+  					<p>часов работы</p>
+  				</div>
+  				<div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+  					<h1><span id="coffee">0</span></h1>
+  					<p>чашек кофе</p>
+  				</div>
+  			</div>
+      </div>
+		</div>
+	</div>
+	<div id="content-projects">
+		<h1><span>350+</span> закрытых проектов в <span>15+</span> странах<br /> по всему миру</h1>
+		<p>Наша миссия - разработка качественного информационного продукта. <br />Мы готовы создавать уникальные проекты с нуля или модернизировать существующие сайты.<br /> Качественно, креативно и компетентно. Эти проекты разработали мы:</p>
+    <div class="container-fluid">
+  		<div class="row our-projects-row">
+  			<div class="col-md-3"><div class="pseudo"><a href="#"><img src="css/img/mirror.png" alt=""><h1>Mirror Muscles</h1>
+  			<p>Cайт-визитка для дизайнерской компании</p></a><div class="row">
+  				<div class="col-md-6"><input type="button" value="css"></div>
+  				<div class="col-md-6"><input type="button" value="php"></div>
+  			</div></div></div>
+  			<div class="col-md-3"><div class="pseudo"><a href="#"><img src="css/img/illumination.png" alt=""><h1>Aecillumination</h1>
+  			<p>Интернет-магазин</p></a><div class="row">
+  				<div class="col-md-6"><input type="button" value="css"></div>
+  				<div class="col-md-6"><input type="button" value="php"></div>
+  			</div></div></div>
+  			<div class="col-md-3"><div class="pseudo"><a href="#"><img src="css/img/cavalier.png" alt=""><h1>Cavalier-bleu</h1>
+  			<p>Lorem ipsum</p></a><div class="row">
+  				<div class="col-md-6"><input type="button" value="css"></div>
+  				<div class="col-md-6"><input type="button" value="php"></div>
+  			</div></div></div>
+  			<div class="col-md-3"><div class="pseudo"><a href="#"><img src="css/img/slovenia.png" alt=""><h1>Slovenia-info</h1>
+  			<p>Lorem ipsum other castle arrow to the knee set up us the bomb</p></a><div class="row">
+  				<div class="col-md-6"><input type="button" value="css"></div>
+  				<div class="col-md-6"><input type="button" value="php"></div>
+  			</div></div></div>
+  		</div>
+  		<div class="row our-projects-row">
+  			<div class="col-md-3"><div class="pseudo"><a href="#"><img src="css/img/game-pride.png" alt=""><h1>Gamepride</h1>
+  			<p>Lorem ipsum other castle arrow to the knee set up us the bomb</p></a><div class="row">
+  				<div class="col-md-6"><input type="button" value="css"></div>
+  				<div class="col-md-6"><input type="button" value="php"></div>
+  			</div></div></div>
+  			<div class="col-md-3"><div class="pseudo"><a href="#"><img src="css/img/astrology.png" alt=""><h1>Astrologytv</h1>
+  			<p>Lorem ipsum other castle arrow to the knee set up us the bomb</p></a><div class="row">
+  				<div class="col-md-6"><input type="button" value="css"></div>
+  				<div class="col-md-6"><input type="button" value="php"></div>
+  			</div></div></div>
+  			<div class="col-md-3"><div class="pseudo"><a href="#"><img src="css/img/reporter.png" alt=""><h1>Hollywoodreporter</h1>
+  			<p>Lorem ipsum other castle</p></a><div class="row">
+  				<div class="col-md-6"><input type="button" value="css"></div>
+  				<div class="col-md-6"><input type="button" value="php"></div>
+  			</div></div></div>
+  			<div class="col-md-3"><div class="pseudo"><a href="#"><img src="css/img/billboard-magazine.png" alt=""><h1>Billboard</h1>
+  			<p>Lorem ipsum other castle</p></a><div class="row">
+  				<div class="col-md-6"><input type="button" value="css"></div>
+  				<div class="col-md-6"><input type="button" value="php"></div>
+  			</div></div></div>
+  		</div>
+    </div>
+		<div class="our-projects-button"><input type="button" value="оставить заявку"></div>
+	</div>
+	<div id="tecknology">
+		<h1>15+ активно используемых интернет технологий</h1>
+		<p>Наша стратегия - никогда не останавливаться в развитии. Мы изучаем и углубляем свои знания для того чтобы ваши сайты были лучшими. <br /> Использование современных технологий - гарант удобства работы с сайтом. Эти технологии нам покорились:</p>
+    <div class="container-fluid">
+  		<div class="row tecknology-row">
+  			<div class="col-md-2 teckno-logos1"><a href="#"><img src="css/img/php-logo.png" alt=""></a></div>
+  			<div class="col-md-2 teckno-logos2"><a href="#"><img src="css/img/HTML5_Logo.png" alt=""></a></div>
+  			<div class="col-md-2 teckno-logos3"><a href="#"><img src="css/img/WordPress.png" alt=""></a></div>
+  			<div class="col-md-2 teckno-logos4"><a href="#"><img src="css/img/prestashop.png" alt=""></a></div>
+  			<div class="col-md-2 teckno-logos5"><a href="#"><img src="css/img/android-logo.png" alt=""></a></div>
+  			<div class="col-md-2 teckno-logos6"><a href="#"><img src="css/img/apple-logo.png" alt=""></a>
+  			</div>
+  		</div>
+    </div>
+		<div class="our-projects-button"><input type="button" value="оставить заявку"></div>
+	</div>
+	<div id="info-text">
+		<p>Целесообразно ли в 2017 году сомневаться в необходимости создания сайта? Мы, как и любая IT-компания ответим, что нет, ведь самый крупный единый рынок товаров и услуг находится именно в Интернете. И сегодня мы вам расскажем не только о преимуществах личного сайта для вашего бизнеса, но и почему делать заказ лучше у компании Silver Solutions.</p>
+		<p class="inv-text-1">В IT сфере важна быстрая реакция на новые аспекты и нюансы в веб разработке. Ведь на сегодняшний день – это самая популярная и быстро развивающаяся сфера бизнеса. Мы - команда профессионалов и всегда работаем с учетом последних тенденций. Это значит, что мы гарантируем качество и оперативность выполнения работ.</p>
+		<p class="inv-text-2">Подробнее о самых популярных предложениях:
+		Сайты под ключ – это идеальный вариант, когда у вас есть ограниченная сумма на разработку, и вы не планируете ее увеличивать.
+		Создание сайта визитки - лучшее решения для быстрого старта небольшого бизнеса.  Основной информации о вашей деятельности, спектре услуг и, к примеру, портфолио достаточно для привлечения потока клиентов.
+		Разработка мобильного приложения - очень своевременное решение для любого бизнеса. Не только потому что это практичный инструмент для работы в Интернет но и потому что это отличный способ показать заботу о вашем клиенте.</p>
+		<p class="inv-text-3">Создание видеороликов - еще один необычный способ расширить сферу вашего бизнеса и вывести его на новый уровень. Мы готовы взяться за изготовление рекламных роликов на английском, русском и украинском языках под ключ: от создания концепта до озвучивания. В нашем распоряжении профессиональная студия с профессиональными камерами и звукозаписывающим оборудованием.
+		Посмотреть все услуги. </p>
+		<p class="inv-text-4">Постоянное сотрудничество с зарубежными клиентами - это возможность почерпнуть новые идеи в создании сайтов и разработке современных дизайнов. Саморазвитие и совершенствование собственных умений всегда было для нас приоритетным направлением в работе, поэтому мы никогда не утверждали, и не будем утверждать, что знаем абсолютно все. Мы профессионалы своего дела, а признать, что больше не к чему стремится – путь в никуда. 
+		</p>
+		<p class="inv-text-4">И сегодня мы вам предлагаем качественные услуги за разумную цену, а если вы все еще сомневаетесь в наших словах, то просим заглянуть на страницу Портфолио или ознакомится с Отзывами наших клиентов, и самим во всем убедится.
+		</p>
+		<p class="inv-text-4">Мы уже упоминали выше, что как для IT компании спектр наших услуг чрезвычайно широк: от создания сайта на несколько страниц  до разработки интернет порталов. 
+		Чтобы заказать сайт у нас вам необходимо просто нажать кнопку «Оставить заявку», заполнить некоторые сведения о себе и оставить свои контакты и наш менеджер свяжется с вами в кратчайшие сроки. Мы работаем по всему миру!</p>
+	</div>
+  <div class="info-text-link">
+            <a href="#">Показать полностью</a>
+          </div>
+	<div id="create-project">
+		<h1>Хотите начать проэкт?</h1>
+		<p>Это возможно!</p>
+		<div class="our-projects-button"><input type="button" value="оставить заявку"></div>
+	</div>
+	<footer>
+		<div id="footer">
+      <div class="container-fluid">
+	        <div class="row footer-row">
+	          <div class="col-md-3 our-service">
+	            <a href="#" class="section">Услуги</a>
+	            <ul>
+	              <li><a href="#">Разработка сайтов</a></li>
+	              <li><a href="#">Создание интернет магазина</a></li>
+	              <li><a href="#">Создание Landing page</a></li>
+	              <li><a href="#">Дизайн сайтов</a></li>
+	              <li><a href="#">Разработка приложений</a></li>
+	              <li><a href="#">Разработка плагинов</a></li>
+	              <li><a href="#">Разработка логотипов</a></li>
+	              <li><a href="#">Услуги копирайтинга</a></li>
+	              <li><a href="#">Настройка серверов</a></li>
+	            </ul>
+	          </div>
+	          <div class="col-md-3 technology">
+	            <a href="#" class="section">Технологии</a>
+	            <ul>
+	              <li><a href="#">Wordpress/Woocommerce</a></li>
+	              <li><a href="#">Prestashop</a></li>
+	              <li><a href="#">Joomla</a></li>
+	              <li><a href="#">Opencart</a></li>
+	              <li><a href="#">Yii</a></li>
+	              <li><a href="#">Symfony</a></li>
+	              <li><a href="#">HTML5/CSS3</a></li>
+	              <li><a href="#">JavaScript</a></li>
+	              <li><a href="#">jQuery</a></li>
+	            </ul>
+	          </div>
+	          <div class="col-md-3 company">
+	            <a href="#" class="section">Компания</a>
+	            <ul>
+	              <li><a href="#">О нас</a></li>
+	              <li><a href="#">Услуги</a></li>
+	              <li><a href="#">Портфолио</a></li>
+	              <li><a href="#">Блог</a></li>
+	              <li><a href="#">Отзывы</a></li>
+	              <li><a href="#">FAQ</a></li>
+	              <li><a href="#">Контакты</a></li>
+	            </ul>
+	          </div>
+	          <div class="col-md-3 contacts">
+	            <a href="#" class="section">Контакты</a>
+	            <ul>
+	              <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>Украина, г. Сумы, пр. Курский, 22</a></li>
+	              <li><i class="fa fa-phone" aria-hidden="true"></i>+38 050 407 2800</li>
+	              <li>+38 067 187 95 78</li>
+	              <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>silver.solutions.company@gmail.com</a></li>
+	              <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i>igor.serebryanskiy</a></li>
+	              <li class="news">новостная рассылка</li>
+	              <li>Подпишитесь на рассылку, чтобы не пропустить важные новости</li>
+	              <li><input type="email" placeholder="Укажите Ваш Email"><a href="#"><img src="css/img/click.png" alt=""></a></li>
+	            </ul>
+	          </div>
+	        </div>
+	        <div class="footer-icons">          
+	          <div class="row icon-row">
+	            <div class="col-md-4 icon"><a href="#"><img src="css/img/facebook.png" alt=""></a></div>
+	            <div class="col-md-4 icon"><a href="#"><img src="css/img/google.png" alt=""></a></div>
+	            <div class="col-md-4 icon"><a href="#"><img src="css/img/LinkedIn.png" alt=""></a></div>
+	          </div>
+	        </div>
+      </div>
+	        <div class="copyrights">Copyright © 2014-2017 Silver Solutions</div>
+	      </div>
+  	</footer>
+    </div>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/usingJQuery.js"></script>
+    <script src="js/jquery.animateNumber.js"></script>
+  </body>
+</html>
